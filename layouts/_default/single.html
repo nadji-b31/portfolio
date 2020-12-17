@@ -1,0 +1,82 @@
+{{ partial "header" . }}
+
+<!-- main>
+
+    <div>
+        <h1>{{ .Title }}</h1>
+        <h5>{{ .Description }}</h5>
+        {{ partial "tags" . }}
+    </div>
+
+    <div align="start" class="content">{{ .Content }} nahtoto</div>
+
+</main -->
+
+<section class="single-section-sm pb-0">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-3 col-md-3"> 
+                
+                <div class="sidebar">
+                    <div class="profile-img">
+                        <img src="{{ $.Site.BaseURL }}images/moi.jpg" class="img-responsive" alt="Moi">
+                    </div>
+                    <h2><strong> Nadjidine B.</strong></h2>
+                    <h3 class="title_nb">Expert en ingénierie logiciel </h3>
+                    <hr>
+                    <h2><strong> Navigation</strong></h2>
+                    <ul class="navigation-list">                             
+                        <li class="list-group-item">
+                          <a class="smooth-scroll" href="{{ $.Site.BaseURL }}projets/transition-4.0/">Transition 4.0</a>
+                        </li>
+                        
+                        <li class="list-group-item">
+                          <a class="smooth-scroll" href="{{ $.Site.BaseURL }}projets/findbacklinck/">Backlink SEO</a>
+                        </li>
+                        
+                        <li class="list-group-item">
+                          <a class="smooth-scroll" href="{{ $.Site.BaseURL }}projets/numericom/">Numéri'com</a>
+                        </li>
+                        
+                        <li class="list-group-item">
+                          <a class="smooth-scroll" href="{{ $.Site.BaseURL }}projets/citi/">C'ITI</a>
+                        </li>
+                        
+                        <li class="list-group-item">
+                          <a class="smooth-scroll" href="{{ $.Site.BaseURL }}projets/mobilavenue/">Mobil'Avenue</a>
+                        </li>
+                        
+                        <li class="list-group-item">
+                          <a class="smooth-scroll" href="{{ $.Site.BaseURL }}projets/dashboardappro/">Dashboard Appros</a>
+                        </li>
+                      
+                    </ul>
+                </div>
+        
+            </div>
+        
+            <div class="col-lg-7 col-md-7">
+
+                <main>
+
+                    <div>
+                        <h1>{{ .Title }}</h1>
+                        <h5>{{ .Description }}</h5>
+                        {{ partial "tags" . }}
+                    </div>
+
+                    <div align="start" class="content toc-placement">{{ .Content }}</div>
+                        {{ partial "tags" . }}
+                </main>
+
+            </div>
+            <!--TOC-->
+            <div class="col-lg-2 col-md-2">
+                <nav id="toc" data-spy="affix" data-toggle="toc"></nav>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+{{ partial "footer" . }}

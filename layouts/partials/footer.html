@@ -1,0 +1,101 @@
+        <footer class="">
+            <div class="container-fluid resume-footer"> 
+
+                <div class="container pt-5">
+                    <div class="row text-left">
+                      <div class="col-md-4 col-sm-12">
+                        <h5 class="resume-title">PROJETS</h5>
+                        
+                        <ul class="footer-list">                             
+                              <li class="nav-item">
+                                <a class="smooth-scroll" href="{{ $.Site.BaseURL }}project/transition-4.0/">Transition 4.0</a>
+                              </li>
+                              
+                              <li class="nav-item">
+                                <a class="smooth-scroll" href="{{ $.Site.BaseURL }}project/findbacklinck/">Backlink SEO</a>
+                              </li>
+                              
+                              <li class="nav-item">
+                                <a class="smooth-scroll" href="{{ $.Site.BaseURL }}project/numericom/">Numéri'com</a>
+                              </li>
+                              
+                              <li class="nav-item">
+                                <a class="smooth-scroll" href="{{ $.Site.BaseURL }}project/citi/">C'ITI</a>
+                              </li>
+                              
+                              <li class="nav-item">
+                                <a class="smooth-scroll" href="{{ $.Site.BaseURL }}project/mobilavenue/">Mobil'Avenue</a>
+                              </li>
+                              
+                              <li class="nav-item">
+                                <a class="smooth-scroll" href="{{ $.Site.BaseURL }}project/dashboardappro/">Dashboard Appros</a>
+                              </li>
+                            
+                        </ul>
+                                        
+                      </div>
+                      
+                      <div class="col-md-4 col-sm-12">
+                        <h5 class="resume-title">ME CONTACTER</h5>
+                        {{ if .Site.Menus.icon }}
+
+                                {{ range sort .Site.Menus.icon }}
+                                    <div class="navbar-icon" style="font-size: 24px;"><a href="{{ .URL }}"><i class="fa fa-{{ .Name }} fa-3x"></i></a></div>
+                                {{ end }}
+
+                        {{ end }}
+                       
+                      </div>
+                      
+                      
+                      <div class="col-md-4 col-sm-12">
+                        
+                        <h5 class="resume-title">MES COMPETENCES</h5>
+                        <ul class="footer-list">                             
+                            <li class="nav-item">
+                              <a class="smooth-scroll" href="{{ $.Site.BaseURL }}project/transition-4.0/">Transition 4.0</a>
+                            </li>
+                            
+                            <li class="nav-item">
+                              <a class="smooth-scroll" href="{{ $.Site.BaseURL }}project/findbacklinck/">Backlink SEO</a>
+                            </li>
+                            
+                            <li class="nav-item">
+                              <a class="smooth-scroll" href="{{ $.Site.BaseURL }}project/numericom/">Numéri'com</a>
+                            </li>
+                            
+                            <li class="nav-item">
+                              <a class="smooth-scroll" href="{{ $.Site.BaseURL }}project/citi/">C'ITI</a>
+                            </li>
+                            
+                            <li class="nav-item">
+                              <a class="smooth-scroll" href="{{ $.Site.BaseURL }}project/mobilavenue/">Mobil'Avenue</a>
+                            </li>
+                            
+                            <li class="nav-item">
+                              <a class="smooth-scroll" href="{{ $.Site.BaseURL }}project/dashboardappro/">Dashboard Appros</a>
+                            </li>
+                          
+                      </ul>
+                      </div>
+                      
+                    </div>
+                  </div>
+
+            </div>
+            <div class="container">
+                <div class="row">
+                     <p class="copyright text-center">
+                         {{ .Site.Params.copyright | default "&copy; Janvier 2021 [Nadjidine BOINALI](https://gohugo.io) - [Mentions légales](https://github.com/calintat/minimal)." | markdownify }}
+
+                     </p>
+                </div>
+            </div>
+           
+        </footer>
+
+        {{ partial "body-close" . }}
+        
+    </body>
+
+</html>
