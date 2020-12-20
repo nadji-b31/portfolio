@@ -142,8 +142,10 @@ p.copyright > a
 
 /* Colores element text navbar*/
 .navbar-default .navbar-nav>li>a {
-    color: #ffffff;
+    color: #CCCCCC;
 }
+
+
 /*Colored footer lvl1*/
 .resume-footer{
     background-color: #535251;
@@ -209,6 +211,10 @@ hr{
     margin-bottom: 50px;
     min-height: 450px;
     /*box-shadow: 5px 10px black;*/
+}
+
+.card-container {
+    max-width: 350px;
 }
 
 .card.card-project {
@@ -360,10 +366,11 @@ a.smooth-scroll {
 .navigation-list > a{
     text-decoration: none;
 }
-
+/*
 .navigation-list li.active a {
     color: blue;
 }
+*/
 
 .btn-more:hover {
     background-color: rgb(83, 82, 81);
@@ -377,6 +384,11 @@ a.smooth-scroll {
 #le-projet {
     margin: 0;
     visibility: hidden;
+}
+
+/*Références*/
+.btns-ref > a.button.btn-more {
+    min-width: 200px;
 }
 
 footer {

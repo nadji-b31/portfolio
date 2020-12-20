@@ -3,7 +3,7 @@
 
                 <div class="container pt-5">
                     <div class="row text-left">
-                      <div class="col-md-4 col-sm-12">
+                      <div class="col-md-3 col-sm-12">
                         <h5 class="resume-title">PROJETS</h5>
                         
                         <ul class="footer-list">                             
@@ -35,12 +35,12 @@
                                         
                       </div>
                       
-                      <div class="col-md-4 col-sm-12">
+                      <div class="col-md-3 col-sm-12">
                         <h5 class="resume-title">ME CONTACTER</h5>
                         {{ if .Site.Menus.icon }}
 
                                 {{ range sort .Site.Menus.icon }}
-                                    <div class="navbar-icon" style="font-size: 24px;"><a href="{{ .URL }}"><i class="fa fa-{{ .Name }} fa-3x"></i></a></div>
+                                    <div class="navbar-icon" style="font-size: 24px;"><a href="{{ .URL }}" target="_blank"><i class="fa fa-{{ .Name }} fa-3x"></i></a></div>
                                 {{ end }}
 
                         {{ end }}
@@ -48,37 +48,62 @@
                       </div>
                       
                       
-                      <div class="col-md-4 col-sm-12">
+                      <div class="col-md-3 col-sm-12">
                         
                         <h5 class="resume-title">MES COMPETENCES</h5>
                         <ul class="footer-list">                             
                             <li class="nav-item">
-                              <a class="smooth-scroll" href="{{ $.Site.BaseURL }}project/transition-4.0/">Transition 4.0</a>
+                              <a class="smooth-scroll" href="{{ $.Site.BaseURL }}competences/autonomie/">Autonomie</a>
                             </li>
                             
                             <li class="nav-item">
-                              <a class="smooth-scroll" href="{{ $.Site.BaseURL }}project/findbacklinck/">Backlink SEO</a>
+                              <a class="smooth-scroll" href="{{ $.Site.BaseURL }}competences/communication/">Communication</a>
                             </li>
                             
                             <li class="nav-item">
-                              <a class="smooth-scroll" href="{{ $.Site.BaseURL }}project/numericom/">Numéri'com</a>
+                              <a class="smooth-scroll" href="{{ $.Site.BaseURL }}competences/html-css/">HTML5/CSS3</a>
                             </li>
                             
                             <li class="nav-item">
-                              <a class="smooth-scroll" href="{{ $.Site.BaseURL }}project/citi/">C'ITI</a>
+                              <a class="smooth-scroll" href="{{ $.Site.BaseURL }}competences/php/">PHP</a>
                             </li>
                             
                             <li class="nav-item">
-                              <a class="smooth-scroll" href="{{ $.Site.BaseURL }}project/mobilavenue/">Mobil'Avenue</a>
+                              <a class="smooth-scroll" href="{{ $.Site.BaseURL }}competences/r_and_d/">R & D</a>
                             </li>
                             
                             <li class="nav-item">
-                              <a class="smooth-scroll" href="{{ $.Site.BaseURL }}project/dashboardappro/">Dashboard Appros</a>
+                              <a class="smooth-scroll" href="{{ $.Site.BaseURL }}competences/scrum/">Agile Scrum</a>
                             </li>
-                          
+
+                            <li class="nav-item">
+                              <a class="smooth-scroll" href="{{ $.Site.BaseURL }}competences/qlike/">Qlike Set Analysis</a>
+                            </li>
+
+                            <li class="nav-item">
+                              <a class="smooth-scroll" href="{{ $.Site.BaseURL }}competences/sql/">SQL</a>
+                            </li>
+
+                            <li class="nav-item">
+                              <a class="smooth-scroll" href="{{ $.Site.BaseURL }}competences/vba/">VBA</a>
+                            </li>
+
                       </ul>
                       </div>
                       
+                      <div class="col-md-3 col-sm-12">
+                        <h5 class="resume-title">REFERENCES</h5>
+                        <ul class="footer-list">                             
+                            <li class="nav-item">
+                              <a class="smooth-scroll" href="{{ $.Site.BaseURL }}data/CV_BOINALI_Nadjididine.pdf" target="_blank">Curriculum Vitæ</a>
+                            </li>
+                            <li class="nav-item">
+                              <a class="smooth-scroll" href="{{ $.Site.BaseURL }}data/NadjidineBoinali-Certification_Cy-certificate.pdf" target="_blank">
+                                CISCO CCNA Cybersecurity Operations
+                              </a>
+                            </li>
+                      </div>
+
                     </div>
                   </div>
 
@@ -86,7 +111,7 @@
             <div class="container">
                 <div class="row">
                      <p class="copyright text-center">
-                         {{ .Site.Params.copyright | default "&copy; Janvier 2021 [Nadjidine BOINALI](https://gohugo.io) - [Mentions légales](https://github.com/calintat/minimal)." | markdownify }}
+                         {{ .Site.Params.copyright | default "&copy; Janvier 2021 [Nadjidine BOINALI]() - [Mentions légales](#)." | markdownify }}
 
                      </p>
                 </div>

@@ -16,6 +16,10 @@ googleAnalytics = ""
     highlightStyle = "default"
     highlightLanguages = ["go", "haskell", "kotlin", "scala", "swift"]
 
+    # Extra variables
+    urlBMS="https://bmscircuits.com/"
+
+
 # Permit raw html
 [markup.goldmark.renderer]
     unsafe= true
@@ -26,14 +30,19 @@ googleAnalytics = ""
     weight = 1
 
 [[menu.main]]
+    url = "/projets/"
+    name = "Projets"
+    weight = 2    
+
+[[menu.main]]
     url = "/competences/"
     name = "Compétences"
     weight = 3
 
 [[menu.main]]
-    url = "/projets/"
-    name = "Projets"
-    weight = 2
+    url = "/references/"
+    name = "Références"
+    weight = 4
 
 # Social icons to be shown on the right-hand side of the navigation bar.
 # The "name" field should match the name of the icon in Font Awesome.

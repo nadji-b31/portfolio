@@ -12,19 +12,27 @@
 
 </main -->
 
+
 <section class="single-section-sm pb-0">
     <div class="container">
         <div class="row">
             <div class="col-lg-3 col-md-3"> 
                 
+                
+                
                 <div class="sidebar">
                     <div class="profile-img">
                         <img src="{{ $.Site.BaseURL }}images/moi.jpg" class="img-responsive" alt="Moi">
                     </div>
+                    
                     <h2><strong> Nadjidine B.</strong></h2>
                     <h3 class="title_nb">Expert en ingénierie logiciel </h3>
                     <hr>
-                    <h2><strong> Navigation</strong></h2>
+                    <!--Bloc projets only-->
+                    {{ $url := urls.Parse .Permalink }}
+                    {{ if hasPrefix $url.Path "/projets"}}
+                
+                    <h2><strong> Projets</strong></h2>
                     <ul class="navigation-list">                             
                         <li class="list-group-item">
                           <a class="smooth-scroll" href="{{ $.Site.BaseURL }}projets/transition-4.0/">Transition 4.0</a>
@@ -51,6 +59,50 @@
                         </li>
                       
                     </ul>
+                    {{ end }}
+
+                    <!-- Bloc comp only-->
+                    {{ $url := urls.Parse .Permalink }}
+                    {{ if hasPrefix $url.Path "/competences"}}
+                
+                    <h2><strong> Compétences</strong></h2>
+                    <ul class="navigation-list">                             
+                        <li class="list-group-item">
+                            <a class="smooth-scroll" href="{{ $.Site.BaseURL }}competences/autonomie/">Autonomie</a>
+                        </li>
+                        
+                        <li class="list-group-item">
+                            <a class="smooth-scroll" href="{{ $.Site.BaseURL }}competences/communication/">Communication</a>
+                        </li>
+                        
+                        <li class="list-group-item">
+                            <a class="smooth-scroll" href="{{ $.Site.BaseURL }}competences/html-css/">HTML5/CSS3</a>
+                        </li>
+                        
+                        <li class="list-group-item">
+                            <a class="smooth-scroll" href="{{ $.Site.BaseURL }}competences/php/">PHP</a>
+                        </li>
+                        
+                        <li class="list-group-item">
+                            <a class="smooth-scroll" href="{{ $.Site.BaseURL }}competences/r_and_d/">R & D</a>
+                        </li>
+                        
+                        <li class="list-group-item">
+                            <a class="smooth-scroll" href="{{ $.Site.BaseURL }}competences/qlike/">Qlike Set Analysis</a>
+                        </li>
+
+                        <li class="list-group-item">
+                            <a class="smooth-scroll" href="{{ $.Site.BaseURL }}competences/sql/">SQL</a>
+                        </li>
+
+                        <li class="list-group-item">
+                            <a class="smooth-scroll" href="{{ $.Site.BaseURL }}competences/vba/">VBA</a>
+                        </li>
+                      
+                    </ul>
+
+                    {{ end }}
+
                 </div>
         
             </div>

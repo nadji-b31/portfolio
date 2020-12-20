@@ -30,6 +30,13 @@ de la région dans leurs projets.
 - Une retransmission directe continue sur les radios locales;
 - et plus d'une trentaine d'exposants.
 
+L'enjeu était considérable pour les entreprises d'eTIC47, en effet, pour beaucoup d'entre c'est l'évement de l'année en terme de d'exposition. Pour nous en tant qu'étudiant c'était aussi notre projet, et donc notre semestre qui était en jeu.
+
+Nombreux risques éteint identifiés tout comme le refard des professionnels eTic47 par rapport à nous.
+Allez t'il nous prendre au serieux en tant qu'étudiant ?
+
+Et pour notre notre groupe, la cohésion et l'entente était représentaient les plus gros risque, car pour certains, c'étais la première fois que nous travallions ensemble.
+
 ### Objectifs
 
 Notre première mission sur le projet était d'aider à la communication autour de l’évènement, recruter de nouveaux adhérents pour eTIC47 et exposants pour le salon.
@@ -76,7 +83,7 @@ par l'équipe.
 L'évenement étant bien préparer en amont, nous avons su palier à de nombreux manques de la part de nos partenaire, et avions pu les aider
 lorsqu'ils avaient besoins de nous.
 
-Ayant eu la chance de rencontrer et assister à une conférence de <a href="https://www.haas-avocats.com/">Maître HAAS</a> et d'avoir été parmis les premiers à être informer de la mise en place de <a href="https://www.cnil.fr/fr/comprendre-le-rgpd"> RGPD </a> (Règlement Général sur la Protection des Données) est un évènement marquant.
+Ayant eu la chance de rencontrer et assister à une conférence de <a href="https://www.haas-avocats.com/" target="_blank">Maître HAAS</a> et d'avoir été parmis les premiers à être informer de la mise en place de <a href="https://www.cnil.fr/fr/comprendre-le-rgpd" target="_blank"> RGPD </a> (Règlement Général sur la Protection des Données) est un évènement marquant.
 
 
 Entre exposition, aide à l'accueil et enquête de satisfaction, ous avions eu une journée pleinement remplie.
@@ -127,8 +134,9 @@ La journée c’était bien déroulé, nous avions pu faire face à tous les imp
 
 Certains points à améliorer au niveau de l’organisation. Peut-être que nous aurions pu soit travailler sur la communication et l’organisation du NUMERIC’DAY soit communication et la mise en place d’une animation, et non les deux à la fois qui représentaient un challenge considérable pour les 4 binôme que composaient l'équipe.
 
-Ce projet m'a permis de voir comment le monde l'évementiel fonctionne, et en même temps, il m'a permis d'améliorer mes compétences en comminication aqcuisent au projet <a href="/projets/citi/"> C'ITI </a>.
+Ce projet m'a permis de voir comment le monde de l'évementiel fonctionne, et en même temps, il m'a permis d'améliorer mes compétences en comminication aqcuisent au projet <a href="/projets/citi/"> C'ITI </a>.
 
+Grâce au salon, j'ai décroché un stage à <a href="https://greenglade.fr/" target="_blank"> Greenglade Pau</a> , en tant que dévelopeur PHP entre février et mars 2017.  
 
 
 
