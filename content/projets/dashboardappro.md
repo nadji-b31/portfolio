@@ -2,7 +2,7 @@
 title: "Dashboard Appros"
 description: "Le projet Dashboard Appros fait parti d'une suite projet BI Supply Chain."
 #repo: "#" # delete this line if you want a blog-like page
-tags: ["communication", "gestion de projet", "transverse"]
+tags: ["COMMUNICATION", "GESTION DE PROJET", "QLIK", "TECHNIQUE"]
 #author: "Nadjidine BOINALI"
 weight: 5
 draft: false

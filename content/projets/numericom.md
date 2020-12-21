@@ -1,10 +1,10 @@
 ---
 title: "NUMERI'COM"
-description: "Un projet de formation humaine réaliser dans le cadre de ma formation à IN'TECH SUD. 
+description: "Un projet de formation humaine réalisé dans le cadre de ma formation à IN'TECH SUD. 
 Celui-ci met en valeur des techniques de communications et de publipostage pour attirer un maximum d'exposants et visiteurs, 
-dans la premiere évenement numérique de la région."
+dans la première évènement numérique de la région."
 #repo: "#" # delete this line if you want a blog-like page
-tags: ["communication", "gestion de projet", "transverse"]
+tags: ["COMMUNICATION", "GESTION DE PROJET", "TECHNIQUE"]
 #author: "Nadjidine BOINALI"
 weight: 2
 draft: false
@@ -13,13 +13,13 @@ draft: false
 ![numéricom](../../images/project/home_page/numericom.PNG)
 
 ## Le projet
-Un projet de formation humaine réaliser entre septembre 2016 et février 2017 dans le cadre de ma formation à IN'TECH SUD avec 3 autres camarades de classe.
-La coorganisation du 4ème édition du NUMERIC’DAY, l'évènement de la région destinée aux professionnel du numéque à était proposée par 
+Un projet de formation humaine réalisé entre septembre 2016 et février 2017 dans le cadre de ma formation à IN'TECH SUD avec 3 autres camarades de classe.
+La coorganisation du 4ème édition du NUMERIC’DAY, l'événement de la région destinée aux professionnels du numéque à était proposée par 
 <a href="https://www.etic47.fr/" target="_blank">eTIC47</a>, et la <a href="http://www.cci47.fr/" target="_blank">CCI du Lot-et-Garronne </a>.
 
 
 ### Contexte
-eTIC47 structure, organise et promeut la filière numérique du Lot-et-Garonne. Le NUMERIC’DAY est l’occasion de découvrir toutes les compétences numériques disponible localement, d’assister à des conférences sur des sujets sensibles et de partager un moment de convivialité autour du numérique.
+eTIC47 structure, organise et promeut la filière numérique du Lot-et-Garonne. Le NUMERIC’DAY est l’occasion de découvrir toutes les compétences numériques disponibles localement, d’assister à des conférences sur des sujets sensibles et de partager un moment de convivialité autour du numérique.
 
 La CCI (Chambre des Commerces et de l'Industrie) est une organisation publique, qui aide et accompagne les entreprises et professionnels
 de la région dans leurs projets.
@@ -32,10 +32,10 @@ de la région dans leurs projets.
 
 L'enjeu était considérable pour les entreprises d'eTIC47, en effet, pour beaucoup d'entre c'est l'évement de l'année en terme de d'exposition. Pour nous en tant qu'étudiant c'était aussi notre projet, et donc notre semestre qui était en jeu.
 
-Nombreux risques éteint identifiés tout comme le refard des professionnels eTic47 par rapport à nous.
-Allez t'il nous prendre au serieux en tant qu'étudiant ?
+Nombreux risques était identifiés tout comme le retard des professionnels eTic47 par rapport à nous.
+Aller t'il nous prendre au serieux en tant qu'étudiant ?
 
-Et pour notre notre groupe, la cohésion et l'entente était représentaient les plus gros risque, car pour certains, c'étais la première fois que nous travallions ensemble.
+Et pour notre groupe, la cohésion et l'entente était représentaient les plus gros risque, car pour certains, c'étais la première fois que nous travallions ensemble.
 
 ### Objectifs
 

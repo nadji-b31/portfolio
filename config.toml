@@ -1,4 +1,4 @@
-baseURL = "https://b-nadji.com/"
+baseURL = "https://b-nadji.com"
 languageCode = "fr-fr"
 title = "Mon Portfolio"
 disqusShortname = "username" # delete this to disable disqus comments
@@ -15,6 +15,7 @@ googleAnalytics = ""
     highlight = true
     highlightStyle = "default"
     highlightLanguages = ["go", "haskell", "kotlin", "scala", "swift"]
+    favicon = "images/favicon/favicon-256x256.png"
 
     # Extra variables
     urlBMS="https://bmscircuits.com/"

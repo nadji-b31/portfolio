@@ -1,9 +1,9 @@
 ---
 title: "C'ITI"
 #date: 2020-12-17
-description: "C'ITI fut le premier projet de formation humaine que j'ai eu la chance de réaliser à IN'TECH"
+description: "C'ITI fut le premier projet de formation humaine que j'ai eu la chance de réaliser à IN'TECH SUD"
 #repo: "#" # delete this line if you want a blog-like page
-tags: ["communication", "gestion de projet", "transverse"]
+tags: ["COMMUNICATION", "GESTION DE PROJET", "TRANSVERSE"]
 #author: "Nadjidine BOINALI"
 weight: 1
 draft: false
