@@ -1,4 +1,5 @@
-baseURL = "https://b-nadji.com"
+baseURL = "http://localhost/"
+# nadji https://b-nadji.com/
 languageCode = "fr-fr"
 title = "Mon Portfolio"
 disqusShortname = "username" # delete this to disable disqus comments
