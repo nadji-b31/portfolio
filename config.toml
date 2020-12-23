@@ -1,4 +1,4 @@
-baseURL = "http://localhost/"
+baseURL = "https://b-nadji.com/"
 # nadji https://b-nadji.com/
 languageCode = "fr-fr"
 title = "Mon Portfolio"
