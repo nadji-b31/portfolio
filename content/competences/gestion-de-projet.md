@@ -2,7 +2,7 @@
 title: "Gestion de Projets"
 #date: 2014-09-28
 description: "La gestion de projet regroupe l’ensemble des techniques, d’outils et de méthodes permettant de mener à bien un projet."
-tags: ["BACKLINKS SEO", "CITI", "DASHBOARD APPROS", "MOBIL'AVENUE", "NUMERI'COM", "TRANSITION 4.0", "TECHNIQUES"]
+tags: ["BACKLINKS SEO", "CITI", "DASHBOARD APPROS", "MOBIL'AVENUE", "NUMERI'COM", "TRANSITION 4.0", "TECHNIQUE"]
 draft: false
 ---
 

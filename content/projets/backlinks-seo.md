@@ -2,7 +2,7 @@
 title: "Recherche de back linck"
 description: "Le projet Backlinks SEO est un projet R & D (Recherche et développement) réaliser lors de mon stage pour l'obtention de mon bachelore à Jechange.fr entre Août 2018 et Février 2019."
 #repo: "#" # delete this line if you want a blog-like page
-tags: ["AUTONOMIE", "GESTION DE PROJET", "PYTHON", "COMMUNICATION", "R&D", "TECHNIQUES"]
+tags: ["AUTONOMIE", "GESTION DE PROJET", "PYTHON", "COMMUNICATION", "R&D", "TECHNIQUE"]
 #author: "Nadjidine BOINALI"
 weight: 6
 draft: false

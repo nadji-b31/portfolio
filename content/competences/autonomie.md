@@ -2,7 +2,7 @@
 title: "Autonomie Professionnelle"
 #date: 2014-09-28
 description: "Pour bien réussir son porjet professionnel, il est important d'aimer le défi et se donner les moyens pour réussir"
-tags: ["BACKLINKS SEO", "DASHBOARD APPROS", "TRANSITION 4.0"]
+tags: ["BACKLINKS SEO", "DASHBOARD APPROS", "TRANSITION 4.0", "TECHNIQUE","TRANSVERSE"]
 draft: false
 ---
 ## Ma Vision de L'Autonomie Professionnelle

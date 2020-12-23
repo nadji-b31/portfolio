@@ -2,7 +2,7 @@
 title: "HTML5/CSS3"
 #date: 2014-09-28
 description: "HyperText Markup Language, généralement abrégé HTML est un langage de balisage souvent couplé avec du CSS (feuille de stile en cascade) pour générer des pages web."
-tags: ["MOBIL'AVENUE","TECHNIQUES"]
+tags: ["MOBIL'AVENUE","TECHNIQUE"]
 draft: false
 ---
 ## Ma Vision du HTML et CSS

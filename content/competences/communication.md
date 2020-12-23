@@ -2,7 +2,7 @@
 title: "Communication"
 #date: 2014-09-28
 description: "La clé de la réussite et au bout d'une bonne communication entreprise."
-tags: ["BACKLINKS SEO", "CITI", "DASHBOARD APPROS", "MOBIL'AVENUE", "NUMERI'COM", "TRANSITION 4.0"]
+tags: ["BACKLINKS SEO", "CITI", "DASHBOARD APPROS", "MOBIL'AVENUE", "NUMERI'COM", "TRANSITION 4.0", "TRANSVERSE"]
 draft: false
 ---
 
